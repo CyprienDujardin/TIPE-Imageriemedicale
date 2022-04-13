@@ -22,4 +22,8 @@
     
 #on test les data séparées 
 
-#on compte le nombre de succès d'échec et on compare
+#on compte le nombre de succès d'échec et on conclue
+#Petite analyse statistique pour la conclusion
+
+
+
