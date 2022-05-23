@@ -39,20 +39,13 @@ Ytrain = Y[:(tailleY*(5//6))]
 Ytest= Y[(tailleY*5//6):]
 Xtrain = X[:(tailleY*(5//6))]
 Xtest = X[(tailleY*5//6):]
-    
-        
-    
+
    
 dim1 = np.size(X[0],0)
 
 dim2 = int((dim1+1)/2)
 
-    
-
-
-
-
-#on définit aléatoirement les poids (entre -1 et 1)(Tableu de dimention des données)
+#on définit aléatoirement les poids (entre -1 et 1)
     
   
 poid1 = 2* np.random.random((dim1,dim2)) -1
