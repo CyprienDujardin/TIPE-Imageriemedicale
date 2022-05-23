@@ -72,9 +72,9 @@ for k in range (20000):
     poid2 += layer_1.T.dot(Dlayer2)
         
 #on test les data séparées 
-layer_0 = Xtest
-layer_1 = sigmoide(np.dot(layer_1,poid1))
-layer_2 = sigmoide(np.dot(layer_2,poid2))
+layer_1 = Xtest
+layer_2 = sigmoide(np.dot(layer_1,poid1))
+layer_3 = sigmoide(np.dot(layer_2,poid2))
 correct = 0
 #on compte le nombre de succès d'échec et on conclue
 for i in range(len(layer_3)):
